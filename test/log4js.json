@@ -1,0 +1,18 @@
+{
+  "1replaceConsole": true,
+  "levels" : {
+    "db executor" : "info",
+    "db function" : "info",
+    "db query" : "debug",
+    "db script" : "info",
+    "db table" : "info",
+    "db connection" : "info"
+  },
+  "appenders": [
+    {
+      "type": "console",
+      "level": "info"
+      
+    }
+  ]
+}

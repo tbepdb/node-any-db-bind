@@ -1,0 +1,27 @@
+{
+  "name": "any-db-bind",
+  "version": "2.1.0",
+  "description": "Wrapper for any-db. Allow use named bind variables in query.",
+  "main" : "./lib/connect.js",
+  "scripts": {
+    "test" : "./node_modules/.bin/nodeunit ./test/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbepdb/node-any-db-bind.git"
+  },
+  "author": "tbepdb",
+  "keywords": [
+    "any-db",
+    "named",
+    "bind",
+    "variable"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "any-db": "~2.0.1"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  }
+}
