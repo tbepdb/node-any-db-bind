@@ -6,5 +6,12 @@ Wrapper for [any-db](https://github.com/grncdr/node-any-db). Allow use named bin
 The purpose of this library is to provide functionality of named bind variables for SQL database drivers [any-db](https://github.com/grncdr/node-any-db), while avoiding altering driver behaviour
 as much as possible.
 
+#Use bound parameters:
+
+```javascript
+var sql = 'SELECT * FROM questions WHERE answer = :test'
+conn.query(sql, {'test': 42}, function (err, res) {})
+```
+
 ## License
 MIT
