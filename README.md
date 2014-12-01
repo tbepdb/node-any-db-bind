@@ -7,8 +7,9 @@ The purpose of this library is to provide functionality of named bind variables 
 as much as possible.
 
 #Use bound parameters:
-
 ```javascript
+var anyDB = require('any-db-bind')(require('any-db'));
+var conn = anyDB.createConnection(...);
 var sql = 'SELECT * FROM questions WHERE answer = :test'
 conn.query(sql, {'test': 42}, function (err, res) {})
 ```

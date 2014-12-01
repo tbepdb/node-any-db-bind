@@ -1,8 +1,8 @@
 {
   "name": "any-db-bind",
-  "version": "2.1.0",
+  "version": "3.1.0",
   "description": "Wrapper for any-db. Allow use named bind variables in query.",
-  "main" : "./lib/connect.js",
+  "main" : "./lib/wrapper.js",
   "scripts": {
     "test" : "./node_modules/.bin/nodeunit ./test/all.js"
   },
@@ -18,10 +18,8 @@
     "variable"
   ],
   "license": "MIT",
-  "dependencies": {
-    "any-db": "~2.1.0"
-  },
   "devDependencies": {
+    "any-db": "~2.1.0",
     "nodeunit": "*"
   }
 }
