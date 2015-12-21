@@ -1,6 +1,6 @@
 {
   "name": "any-db-bind",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "Wrapper for any-db. Allow use named bind variables in query.",
   "main" : "./lib/wrapper.js",
   "scripts": {
@@ -19,7 +19,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "log4js": "~0.6.0",
     "any-db": "~2.1.0",
+    "any-db-postgres": "~2.1.0",
     "nodeunit": "*"
   }
 }
