@@ -1,4 +1,4 @@
-#any-db-bind
+# any-db-bind
 
 Wrapper for [any-db](https://github.com/grncdr/node-any-db). Allow use named bind variables in query.
 ## Description
@@ -6,7 +6,10 @@ Wrapper for [any-db](https://github.com/grncdr/node-any-db). Allow use named bin
 The purpose of this library is to provide functionality of named bind variables for SQL database drivers [any-db](https://github.com/grncdr/node-any-db), while avoiding altering driver behaviour
 as much as possible.
 
-#Use bound parameters:
+## Install 
+>npm install any-db-bind --save 
+
+## Usage
 ```javascript
 var anyDB = require('any-db-bind')(require('any-db'));
 var conn = anyDB.createConnection(...);
