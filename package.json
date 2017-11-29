@@ -1,6 +1,6 @@
 {
   "name": "any-db-bind",
-  "version": "3.1.14",
+  "version": "3.1.15",
   "description": "Wrapper for any-db. Allow use named bind variables in query.",
   "main" : "./lib/wrapper.js",
   "scripts": {
