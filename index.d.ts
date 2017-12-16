@@ -26,7 +26,7 @@ declare namespace wrap {
     createPool(url: string, config: PoolConfig): ConnectionPool;
     createPool(opts: ConnectOpts, config: PoolConfig): ConnectionPool;
   }
-  function wrapConnect(conn: Connection): QueryableBind;
+  function wrapConnect(conn: Queryable): QueryableBind;
 }
 
 export = wrap;
